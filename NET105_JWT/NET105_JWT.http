@@ -1,0 +1,6 @@
+@NET105_JWT_HostAddress = http://localhost:5183
+
+GET {{NET105_JWT_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
