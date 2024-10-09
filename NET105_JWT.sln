@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET105_JWT", "NET105_JWT\NET105_JWT.csproj", "{30D20D2C-FC54-4268-9D71-BFBF622A1E4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NET105_JWT", "NET105_JWT\NET105_JWT.csproj", "{30D20D2C-FC54-4268-9D71-BFBF622A1E4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{B7E652F0-788F-4D88-919A-9923A294A172}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "Shared\Shared.csproj", "{B7E652F0-788F-4D88-919A-9923A294A172}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{E9E1FCA0-597F-4EEE-B4D7-76B144504713}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B7E652F0-788F-4D88-919A-9923A294A172}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7E652F0-788F-4D88-919A-9923A294A172}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7E652F0-788F-4D88-919A-9923A294A172}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9E1FCA0-597F-4EEE-B4D7-76B144504713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9E1FCA0-597F-4EEE-B4D7-76B144504713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9E1FCA0-597F-4EEE-B4D7-76B144504713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9E1FCA0-597F-4EEE-B4D7-76B144504713}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

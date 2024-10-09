@@ -13,7 +13,7 @@ namespace NET105_JWT.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize(Roles = "Admin")]
+    //[Authorize(Roles = "Admin")]
     public class ProductsController : ControllerBase
     {
         private readonly MyDbContext _context;
